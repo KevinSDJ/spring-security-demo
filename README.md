@@ -18,7 +18,7 @@
 
 ### to stop the execution, delete the containers and images
 
-- `docker-compose down --rmi all -v --remove`
+- `docker-compose down --rmi all -v`
 ~~~
  default port of execution :8080
 ~~~
