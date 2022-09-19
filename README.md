@@ -20,7 +20,7 @@
 
 - `docker-compose down --rmi all -v`
 ~~~
- default port of execution :8080
+ port execution : 3000
 ~~~
 
 
