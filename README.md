@@ -1,5 +1,7 @@
 # SPRING-BOOT USER CRUD + SPRING-SECURITY
 
+This app is already uploaded in an image to my docker hub
+
 #### practice application with spring-boot and spring-security
 * thymeleaft
 * tailwindcss
@@ -8,11 +10,10 @@
 
 #### if you want to try the application
 1. Clone the repository
-2. Make sure you have maven , docker and docker-compose installed on your computer
+2. Make sure you have docker and docker-compose installed on your computer
 
 ***
 ### run docker compose on the cloned project folder at the same level as the dockerfile
-- `mvn package`
 
 - `docker-compose up -d`
 
