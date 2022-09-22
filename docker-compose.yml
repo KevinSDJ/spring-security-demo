@@ -2,7 +2,9 @@ version: "2"
 
 services:
   app:
-    image: kevinsdj/spring-security-demo1
+    image: 'spring-security-demo1'
+    build:
+       context: .
     container_name: app-spring
     depends_on:
       - db
