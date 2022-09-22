@@ -21,9 +21,4 @@ public class MvcConfig implements WebMvcConfigurer {
                 .addResourceLocations(path);
 
     }
-
-    @Override
-    public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(customInterceptor);
-    }
 }

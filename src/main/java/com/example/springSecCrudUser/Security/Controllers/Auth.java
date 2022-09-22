@@ -28,7 +28,7 @@ public class Auth {
 
     @PostMapping("/register")
     public RedirectView postUser(@ModelAttribute RegisterDTO data){
-  
+	System.out.println(data);  
         try{
             authService.registerUser(data);
             return new RedirectView("/auth/register?success");
