@@ -57,12 +57,9 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
         .loginPage("/auth/login")
         .loginProcessingUrl("/login")
         .and()
-        .logout(logout->logout
-        .logoutUrl("/auth/logout")
-        .logoutSuccessUrl("/auth/login?logout")
-        )
+        .logout().logoutUrl("/logout").logoutSuccessUrl("/auth/login?logout")
+        .and()
         .httpBasic();
-
     }
 
     @Override

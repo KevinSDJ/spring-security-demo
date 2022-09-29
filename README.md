@@ -14,8 +14,9 @@ This app is already uploaded in an image to my docker hub
 
 ***
 ### run docker compose on the cloned project folder at the same level as the dockerfile
-
-- `docker-compose up -d`
+- 1 `mvn clean package`
+####
+- 2 `docker-compose up -d`
 
 ### to stop the execution, delete the containers and images
 
